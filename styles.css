@@ -1,0 +1,34 @@
+body {
+  background: url("https://vignette.wikia.nocookie.net/nonciclopedia/images/1/1d/Internet_explorer_brucia.gif/revision/latest?cb=20090614064457");
+  background-size: 5%;
+  color: lawngreen;
+  padding-bottom: 50px;
+}
+
+#main {
+  margin-top: 50px;
+}
+
+h1 {
+  color: yellow;
+}
+
+.rainbow-wordart {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: -webkit-linear-gradient(left, #b306a9, #ef2667, #f42e2c, #ffa509, #fdfc00, #55ac2f, #0b13fd, #a804af) !important;
+  background: -o-linear-gradient(left, #b306a9, #ef2667, #f42e2c, #ffa509, #fdfc00, #55ac2f, #0b13fd, #a804af);
+  background: -moz-linear-gradient(left, #b306a9, #ef2667, #f42e2c, #ffa509, #fdfc00, #55ac2f, #0b13fd, #a804af);
+  background: linear-gradient(to right, #b306a9, #ef2667, #f42e2c, #ffa509, #fdfc00, #55ac2f, #0b13fd, #a804af); 
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+}
+
+#icons {
+  padding-top: 30px;
+}
